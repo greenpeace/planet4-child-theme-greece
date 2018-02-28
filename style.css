@@ -11,3 +11,11 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: light, accessibility-ready
 Text Domain: planet4-child-theme-greece
 */
+
+@media (max-width:575px) {
+  .page-header-title {
+    font-size: 1.4rem;
+    font-size: calc(100% + 2vw);
+    width: 90%;
+  }
+}
