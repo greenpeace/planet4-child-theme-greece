@@ -18,4 +18,7 @@ Text Domain: planet4-child-theme-greece
     font-size: calc(100% + 2vw);
     width: 90%;
   }
+
+  .happy-point-block-wrap iframe{
+    height: 440px;
 }
