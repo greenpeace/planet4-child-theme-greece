@@ -27,7 +27,7 @@ add_filter( 'body_class', 'add_body_classes' );
 
 $context = Timber::get_context();
 
-$context['page_notfound_image']       = esc_url( get_template_directory_uri() . '/images/404-header-el.jpg' );
+$context['page_notfound_image']       = esc_url( get_stylesheet_directory_uri() . '/images/404-header.jpg' );
 $context['page_notfound_title']       = __( 'Sorry, we can\'t find that page!', 'planet4-master-theme' );
 $context['page_notfound_subheader']   = __( 'The page might be extinct...', 'planet4-master-theme' );
 $context['page_notfound_description'] = __( 'Use the search tool and try your luck again.', 'planet4-master-theme' );
