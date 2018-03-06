@@ -21,7 +21,7 @@ Text Domain: planet4-child-theme-greece
     width: 90%;
   }
 
-  .happy-point-block-wrap iframe {
+  .happy-point-block-wrap .pt-20 iframe {
     height: 440px;
   }
 }
