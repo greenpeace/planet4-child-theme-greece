@@ -2,7 +2,7 @@
 	"name": "greenpeace/planet4-child-theme-greece",
 	"description": "Planet 4 Child theme for Greece",
 	"type":"wordpress-theme",
-	"version":"0.0.5",
+	"version":"0.0.6",
 	"minimum-stability" : "stable",
 	"license": "GPL-3.0-or-later",
 	"repositories": [
