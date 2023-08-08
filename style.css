@@ -12,85 +12,23 @@ Tags: light, accessibility-ready
 Text Domain: planet4-child-theme-greece
 */
 
-/* Replacing Lora with Noto Sans */
-
-/* Greek */
-
-@font-face {
-  font-family: "Noto Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/notosans/v7/o-0IIpQlx3QUlC5A4PNr5jRAW_0.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Noto Sans";
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/notosans/v7/o-0OIpQlx3QUlC5A4PNr4ARBQ_m87A.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Noto Sans";
-  font-style: italic;
-  font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/notosans/v7/o-0TIpQlx3QUlC5A4PNr4Az5ZuyAzW1aPQ.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Noto Sans";
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/notosans/v7/o-0NIpQlx3QUlC5A4PNjXhFVZ9yB1Wk.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
-  font-display: swap;
-}
-
-/* Latin */
-@font-face {
-  font-family: "Noto Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/notosans/v7/o-0IIpQlx3QUlC5A4PNr5TRA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Noto Sans";
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/notosans/v7/o-0OIpQlx3QUlC5A4PNr4ARCQ_k.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Noto Sans";
-  font-style: italic;
-  font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/notosans/v7/o-0TIpQlx3QUlC5A4PNr4Az5ZuyDzW0.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Noto Sans";
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/notosans/v7/o-0NIpQlx3QUlC5A4PNjXhFVZNyB.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  font-display: swap;
-}
+/* Replacing GreenpeaceSans with Roboto */
 
 :root {
-  --body--font-family: "Noto Sans", serif;
+  --font-family-primary: Roboto, sans-serif;
+  --nav-item--font-weight: var(--font-weight-bold);
+  --nav-donate--font-weight: var(--font-weight-bold);
+  --button--font-weight: var(--font-weight-bold);
+  --columns-block--a--not--btn--font-weight: var(--font-weight-bold);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-weight-bold);
 }
 
 /* Happy Point */
