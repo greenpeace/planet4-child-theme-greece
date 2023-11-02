@@ -23,5 +23,6 @@
     }
   },
   "require": {
+    "wpackagist-plugin/zapier":"1.0.4"
   }
 }
