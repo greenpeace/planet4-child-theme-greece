@@ -32,18 +32,22 @@ h6 {
 }
 
 /* Happy Point */
+
 #happy-point {
   position: relative;
   padding-top: 15px;
   padding-bottom: 15px;
+  display: inline-block;
 }
 
 .happy-point-block-wrap > picture img {
   height: 650px;
+  overflow: unset;
 }
 
 .happy-point-block-wrap {
   height: 650px;
+  max-height: unset;
 }
 
 .happy-point-block-wrap .happy-point iframe {
@@ -66,9 +70,10 @@ h6 {
 }
 
 @media (min-width: 768px) {
-  /* .happy-point-block-wrap .happy-point {
-    padding-top:150px
-  } */
+  .happy-point-block-wrap {
+    max-height: unset;
+    height: 560px;
+  }
 }
 
 @media (min-width: 1200px) {
