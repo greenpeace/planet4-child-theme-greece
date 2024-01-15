@@ -34,6 +34,8 @@ h6 {
 /* Happy Point */
 #happy-point {
   position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .happy-point-block-wrap > picture img {
@@ -45,7 +47,7 @@ h6 {
 }
 
 .happy-point-block-wrap .happy-point iframe {
-  height: 490px;
+  height: 100%;
   top: 0;
   left: 0;
   margin-top: 0;
@@ -58,9 +60,9 @@ h6 {
     width: 90%;
   }
 
-  .happy-point-block-wrap .pt-20 iframe {
+  /* .happy-point-block-wrap .pt-20 iframe {
     height: 440px;
-  }
+  } */
 }
 
 @media (min-width: 768px) {
