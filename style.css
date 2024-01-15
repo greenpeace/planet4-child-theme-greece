@@ -32,20 +32,26 @@ h6 {
 }
 
 /* Happy Point */
+#happy-point {
+  position: relative;
+}
 
 .happy-point-block-wrap > picture img {
   height: 600px;
 }
 
 .happy-point-block-wrap {
-  height: 544px;
+  height: fit-content;
 }
 
 .happy-point-block-wrap .happy-point iframe {
   height: 490px;
+  top: 0;
+  left: 0;
+  margin-top: 0;
 }
 
-@media (max-width:575px) {
+@media (max-width: 575px) {
   .page-header-title {
     font-size: 1.4rem;
     font-size: calc(100% + 2vw);
@@ -57,16 +63,18 @@ h6 {
   }
 }
 
-@media (min-width:768px) {
-  .happy-point-block-wrap .happy-point {
+@media (min-width: 768px) {
+  /* .happy-point-block-wrap .happy-point {
     padding-top:150px
-  }
+  } */
 }
 
-@media (min-width:1200px) {
-  .happy-point-block-wrap .happy-point {
+@media (min-width: 1200px) {
+  /* .happy-point-block-wrap .happy-point {
     padding-top:200px
-  }
+  } */
 }
 
-.external-icon { display: none; }
+.external-icon {
+  display: none;
+}
