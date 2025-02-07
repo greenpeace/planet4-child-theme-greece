@@ -20,6 +20,7 @@ Text Domain: planet4-child-theme-greece
   --nav-donate--font-weight: var(--font-weight-bold);
   --button--font-weight: var(--font-weight-bold);
   --columns-block--a--not--btn--font-weight: var(--font-weight-bold);
+  --page-header-title--font-weight: var(--font-weight-bold);
 }
 
 h1,
