@@ -107,7 +107,8 @@ h5,
 h6,
 .nav-donate,
 .nav-item,
-.columns-block a:not(.btn) {
+.columns-block a:not(.btn),
+.page-section-header {
   font-weight: var(--font-weight-bold);
 }
 
