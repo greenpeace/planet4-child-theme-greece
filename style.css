@@ -107,7 +107,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.nav-donate,
+.nav-item {
   font-weight: var(--font-weight-bold);
 }
 
