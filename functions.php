@@ -16,3 +16,9 @@ function enqueue_child_styles() {
 add_filter('ep_analyzer_language', static function (): string {
 	return 'greek';
 });
+
+// Adjust default header to allow payments from Stripe
+function update_planet4_permissions_policy_header($policy) {
+  return 'geolocation=(),sync-xhr=(self),microphone=(self),camera=(self),payment=(self "https://js.stripe.com")';
+}
+add_filter('planet4_permissions_policy_header', 'update_planet4_permissions_policy_header', 10, 1);
