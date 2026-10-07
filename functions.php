@@ -22,3 +22,13 @@ function update_planet4_permissions_policy_header($policy) {
   return 'geolocation=(),sync-xhr=(self),microphone=(self),camera=(self),payment=(self "https://js.stripe.com" "https://www.google.com")';
 }
 add_filter('planet4_permissions_policy_header', 'update_planet4_permissions_policy_header', 10, 1);
+
+// Exclude donation pages from cache
+add_action('template_redirect', function() {
+  $excluded_slugs = array('donate', 'tfr');
+
+  if (is_page($excluded_slugs)) {
+    header('Cache-Control: no-cache, must-revalidate, max-age=0');
+    header('cf-edge-cache: no-cache');
+  }
+});
