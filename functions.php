@@ -28,7 +28,7 @@ add_action('template_redirect', function() {
   $excluded_slugs = array('donate', 'tfr');
 
   if (is_page($excluded_slugs)) {
-    header('Cache-Control: no-cache, must-revalidate, max-age=0');
+    header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
     header('cf-edge-cache: no-cache');
   }
 });
